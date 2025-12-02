@@ -83,4 +83,27 @@ public class Grafo {
             System.out.println();
         }
     }
+
+    public int sortearNumeroValido(){
+        int[] verticesEspeciais = {83, 82, 40, 19};
+        boolean valido;
+        int numero;
+        do {
+            valido = true;
+
+            numero = (int) (Math.random()*110);
+
+            for (int i : verticesEspeciais) {
+                if (i == numero) {
+                    valido = false;
+                    break;
+                }
+            }
+        }while(!valido);
+
+        System.out.println("Numero valido: " + numero);
+
+        return numero;
+    }
+
 }

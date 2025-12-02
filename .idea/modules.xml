@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SAMU-Terceira-Avaliacao-de-Estrutura-de-Dados.iml" filepath="$PROJECT_DIR$/.idea/SAMU-Terceira-Avaliacao-de-Estrutura-de-Dados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samu/samu.iml" filepath="$PROJECT_DIR$/samu/samu.iml" />
+    </modules>
+  </component>
+</project>
